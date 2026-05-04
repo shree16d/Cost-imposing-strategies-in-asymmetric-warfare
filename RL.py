@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import random
 data = pd.read_csv("data.csv")
+print(data)
 interceptors = [
      {"name": "Iron Beam (Laser)", "cost": 3.50, "Pd": 0.85},
     {"name": "Iron Dome (Tamir)", "cost": 20000, "Pd": 0.90},
