@@ -103,7 +103,7 @@ def show_swarm_effect():
         print(f"Swarm of {size}: Patriot CER = {patriot_result['CER']}, Iron Dome CER = {irondome_result['CER']}")
 
 def monte_carlo_detection():
-    print("\n SENSOR NOISE (Monte Carlo Pd) ")
+    print("SENSOR NOISE")
 
     N = 50
     drone = "FPV Drone"
