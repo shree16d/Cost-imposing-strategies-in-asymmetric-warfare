@@ -4,14 +4,14 @@ import matplotlib.pyplot as plt
 import random
 data = pd.read_csv("data.csv")
 interceptors = [
-     {"name": "Iron Beam (Laser)", "cost": 3500, "Pd": 0.85},
-    {"name": "Iron Dome (Tamir)", "cost": 50000, "Pd": 0.90},
-    {"name": "Iris-T SLM","cost":  300000, "Pd": 0.93},
-    {"name": "NASAMS","cost": 400000, "Pd": 0.88},
-    {"name": "Patriot PAC-3","cost": 4000000, "Pd": 0.97},]
-real_drone = [ {"name": "Shahed-136","cost": 20_000},
-    {"name": "Lancet-3","cost": 35_000},
-    {"name": "KUB-BLA","cost": 50_000},]
+     {"name": "Iron Beam (Laser)", "cost": 3.50, "Pd": 0.85},
+    {"name": "Iron Dome (Tamir)", "cost": 20000, "Pd": 0.90},
+    {"name": "Iris-T ","cost":  450000, "Pd": 0.93},
+    {"name": "C_RAM","cost": 8100, "Pd": 0.88},
+    {"name": "Patriot PAC-3","cost":  3729769, "Pd": 0.97},]
+real_drone = [ {"name": "Shahed-136","cost": 35000},
+    {"name": "FPV Drone","cost": 500},
+    ]
 decoy_ratio  = [0.1, 0.3, 0.5, 0.7]
 swarm_size   = [10, 50, 100]
 shots = [5, 10, 20, 40, 80]
